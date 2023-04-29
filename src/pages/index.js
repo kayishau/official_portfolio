@@ -7,9 +7,9 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-     
-      <main className='flex items-center text-dark w-full min-h-screen'>
+      <main className='flex items-center text-dark w-full max-h-screen'>
         <Layout className='pt-0 pl-10 pr-10'/>
+        
       </main>
     </>
   )
