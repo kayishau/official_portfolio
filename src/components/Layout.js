@@ -4,6 +4,7 @@ import profilePic from '../../public/images/profile/flower.png'
 import AnimatedText from "./AnimatedText"
 import Link from "next/link"
 import { LinkArrow } from "./Icons"
+import Footer from "./Footer"
 
 const Layout = ({childern, className=""}) => {
   return (
@@ -24,7 +25,8 @@ const Layout = ({childern, className=""}) => {
                     <Link href='mailto:ulyssekayisha@gmail.com' target={"_blank"} className="ml-4 text-lg font-medium capitalize text-dark underline" >Contact</Link>
                 </div>
             </div>
-          </div>
+        </div>
+        <Footer/>
     </div>
   )
 };
