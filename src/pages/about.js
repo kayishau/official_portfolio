@@ -5,6 +5,8 @@ import Footer from "@/components/Footer";
 import profilePic from "../../public/images/profile/Kayisha-profile-pic.png"
 import Image from "next/image";
 import Skills from "@/components/Skills";
+import TransitionEffect from "@/components/TransitionEffect";
+
 
 const about = () => {
   return (
@@ -13,6 +15,7 @@ const about = () => {
             <title>Kayisha | About Page</title>
             <meta name="description" content="any description" />
         </Head> */}
+        <TransitionEffect />
         <main className="flex w-full flex-col items-center justify-center min-h-screen">
             <div className="">
 
@@ -38,7 +41,7 @@ const about = () => {
          </div>
         
         </main>
-        <Footer />
+        
     </div>
   )
 };

@@ -4,6 +4,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { GithubIcon } from "@/components/Icons"
 import  project1 from "../../public/images/projects/image-coming-soon.jpeg"
+import TransitionEffect from "@/components/TransitionEffect"
 // import Layout from "@/components/Layout";
 // import Head from "next/head";
 
@@ -70,6 +71,9 @@ const projects = () => {
   return (
     <>
     {/* <Head></Head> */}
+    
+    <TransitionEffect />
+
     <main className="w-full mb-16 flex flex-col items-center justify-center">
         
         <div className="pt-10">

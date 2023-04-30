@@ -26,7 +26,7 @@ const Layout = ({childern, className=""}) => {
                 </div>
             </div>
         </div>
-        <Footer/>
+      
     </div>
   )
 };
