@@ -9,6 +9,8 @@ export default function Home() {
     <>
       <main className='flex items-center text-dark w-full h-full'>
         <Layout className='pt-0 pl-10 pr-10'/>
+         
+       
         
       </main>
     </>
