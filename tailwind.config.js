@@ -4,6 +4,7 @@ const { color } = require('framer-motion')
 const { fontFamily } = require('tailwindcss/defaultTheme')
 
 module.exports = {
+  important: true,
   content: [
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
