@@ -19,7 +19,7 @@ const about = () => {
         <main className="flex w-full flex-col items-center justify-center min-h-screen">
             <div className="">
 
-            <AnimatedText text="Passion Fuels Purpose!" className="mb-0" />
+            <AnimatedText text="Placeholder inspirational text!" className="mb-0" />
             <div className="flex items-center justify-between w-full ml-20 mb-0 p-0">
                 <div className="w-1/2 flex flex-col mb-30">
                     <h2 className="mb-4 text-lg font-bold uppercase text-dark/75">About Me</h2>
